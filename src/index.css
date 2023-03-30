@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  /* Rule of thumb: 16px is usual font-size. */
+  /* Scale it down to 10px for easier reference as rem values. */
+  font-size: 62.5%;
+}
+
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  background-color: #dddddd;
+  /* Restore default font-size. */
+  font-size: 1.6rem;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* th, td {
+  border: 1px solid black;
+  padding: 8px; 
+  text-align: left;
+}
+th {
+  color: #BB1450;
+} */
+
